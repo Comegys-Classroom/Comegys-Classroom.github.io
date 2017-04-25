@@ -10,3 +10,25 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: white 0.1em 0.1em 0.2em;
   text-align: center;
 }
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+}
+#assignments {
+  top: 20px;
+  background-color: #4CAF50;
+}
+#lessons {
+  top: 80px;
+  background-color: #2196F3;
+}
