@@ -24,11 +24,15 @@ h1, h2, h3, h4, h5, h6 {
 #mySidenav a:hover {
   left: 0;
 }
-#assignments {
+#home {
   top: 20px;
   background-color: #4CAF50;
 }
-#lessons {
+#assignments {
   top: 80px;
   background-color: #2196F3;
+}
+#lessons {
+  top: 140px;
+  background-color: #F44336;
 }
